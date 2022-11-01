@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import ProfilePic from "../../assets/profile_pic_bw.png";
+
 import { motion } from "framer-motion";
 
 import PageTitle from "../../components/PageTitle";
@@ -64,15 +64,6 @@ export default function About() {
           >
             Hi, I'm Krisu. Nice to meet you!
           </motion.h1>
-
-          <div className="mr-5 flex pb-6 ">
-            <motion.img
-              variants={childVariant}
-              src={ProfilePic}
-              alt="profile"
-              className="flex rounded-full max-h-[200px] max-w-[200px]"
-            ></motion.img>
-          </div>
 
           <motion.p variants={childVariant}>
             I'm passionate about building software and applications that both

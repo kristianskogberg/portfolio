@@ -42,6 +42,7 @@ export default function Home() {
       <video
         className="w-full h-full object-cover absolute opacity-100 top-0 -z-10"
         src={videoBg}
+        playsInline
         autoPlay
         loop
         muted

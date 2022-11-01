@@ -7,7 +7,7 @@ import Work from "./components/pages/Work";
 
 function App() {
   return (
-    <div>
+    <div className="bg-[black]">
       <Navbar />
       <Home />
       <About />
