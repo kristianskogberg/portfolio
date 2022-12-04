@@ -13,8 +13,8 @@ export default function Navbar() {
   }
 
   return (
-    <div className="fixed font-fira w-full h-[60px] flex justify-between items-center px-6 bg-black text-gray-300">
-      <div className="z-10">
+    <div className="z-20 fixed font-fira w-full h-[60px] flex justify-between items-center px-6 bg-black text-gray-300">
+      <>
         <Link to="home" smooth={true} duration={500}>
           {/*
           <img src={Logo} alt="logo" className="w-10 cursor-pointer"></img>
@@ -23,10 +23,7 @@ export default function Navbar() {
             {KS}
           </h1>
         </Link>
-      </div>
-      {/*
-      <div className="w-full h-full absolute top-0 left-0 bg-gradient-to-b from-black bg-opacity-100 -z-10"></div>
-*/}
+      </>
 
       {/* menu */}
 

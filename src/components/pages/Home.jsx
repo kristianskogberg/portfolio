@@ -3,6 +3,7 @@ import { HiArrowNarrowDown } from "react-icons/hi";
 import { Link } from "react-scroll";
 import AnimatedText from "../AnimatedText";
 import { motion } from "framer-motion";
+import BackgroundImage from "../../assets/bg.png";
 
 const fadeVariant = {
   visible: {
@@ -37,10 +38,15 @@ const childVariant = {
 
 export default function Home() {
   return (
-    <div name="home" className="w-full h-screen ">
+    <div name="home" className="w-full h-screen relative ">
+      <img
+        className="w-full h-full object-cover absolute opacity-100 top-0"
+        src={BackgroundImage}
+        alt="background"
+      />
       <div className="max-w-[1200px] mx-auto px-6 flex flex-col justify-center h-full">
         <div className="flex flex-col md:flex-row">
-          <div>
+          <div className="z-10">
             <AnimatedText
               text={"Hi, my name is"}
               delay={0}
@@ -85,7 +91,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="w-full h-full absolute top-0 left-0 bg-[black] bg-opacity-80 -z-10"></div>
     </div>
   );
 }
