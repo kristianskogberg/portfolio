@@ -31,7 +31,7 @@ export default function Contact() {
       name="contact"
       className="w-full h-screen bg-[black] text-gray-300 pt-[80px]"
     >
-      <div className="max-w-[1000px] mx-auto px-6 flex flex-col justify-start items-center w-full h-full">
+      <div className="max-w-[1200px] mx-auto px-6 flex flex-col justify-start items-center w-full h-full">
         <form
           method="POST"
           action="https://getform.io/f/2015e10b-7fc6-4fc3-8571-5b846f4ff0e1"
@@ -44,19 +44,19 @@ export default function Contact() {
             </p>
           </div>
           <input
-            className="p-2 bg-[#ccd] placeholder-gray-500 text-[black]"
+            className="p-2 bg-gray-300 placeholder-gray-500 text-[black]"
             type="text"
             placeholder="Name"
             name="name"
           />
           <input
-            className="my-4 p-2 bg-[#ccd] placeholder-gray-500 text-[black]"
+            className="my-4 p-2 bg-gray-300 placeholder-gray-500 text-[black]"
             type="email"
             placeholder="Email"
             name="email"
           />
           <textarea
-            className="p-2 bg-[#ccd] placeholder-gray-500 text-[black]"
+            className="p-2 bg-gray-300 placeholder-gray-500 text-[black]"
             name="message"
             rows="10"
             placeholder="Message"

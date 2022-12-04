@@ -7,13 +7,13 @@ export default function FeaturedProject(props) {
   return (
     <>
       {props.imageOnRight ? (
-        <div className="flex flex-col lg:flex-row gap-6 pb-20">
+        <div className="flex flex-col lg:flex-row gap-6 pb-[10rem]">
           {/*<div className="w-full md:w-3/5 my-auto ">*/}
 
-          <div className="w-full lg:w-[700px]">
+          <div className="w-full lg:w-3/5">
             <img className="  mx-auto" src={props.image} alt="project"></img>
           </div>
-          <div className="w-full lg:w-[500px] h-full">
+          <div className="w-full lg:w-2/5 h-full">
             <div className="h-1/">
               <ProjectTitle title={props.name} />
             </div>

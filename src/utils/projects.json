@@ -11,7 +11,7 @@
   {
     "name": "NFTGraph",
     "image": "https://raw.githubusercontent.com/kristianskogberg/portfolio/main/src/assets/work-screenshots/nftgraph.png",
-    "demo": "https://youtu.be/R54e8x91NLM",
+    "demo": "https://youtu.be/L82skPsRVE8",
     "code": null,
     "description": "A web app I created with React. Users can search for any NFT collection and the app will fetch data for collections using OpenSea API and IcyTools API. It will also display NFT sales data in real-time and update the UI and graphs automatically.",
     "skills": ["React", "Chart.js", "REST APIs", "GraphQL", "UI/UX Design"]

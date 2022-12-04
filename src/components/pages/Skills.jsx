@@ -41,7 +41,7 @@ export default function Skills() {
       name="skills"
       className="w-full h-screen bg-[black] text-gray-300 pt-[80px]"
     >
-      <div className="max-w-[1000px] mx-auto px-6 flex flex-col justify-start w-full h-full">
+      <div className="max-w-[1200px] mx-auto px-6 flex flex-col justify-start w-full h-full">
         <PageTitle title={"Skills"} />
         <div>
           <motion.div
