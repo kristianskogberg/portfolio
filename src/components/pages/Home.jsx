@@ -2,7 +2,6 @@ import React from "react";
 import { HiArrowNarrowDown } from "react-icons/hi";
 import { Link } from "react-scroll";
 import AnimatedText from "../AnimatedText";
-import videoBg from "../../assets/video-bg/videobg.mp4";
 import { motion } from "framer-motion";
 
 const fadeVariant = {
@@ -39,14 +38,6 @@ const childVariant = {
 export default function Home() {
   return (
     <div name="home" className="w-full h-screen ">
-      <video
-        className="w-full h-full object-cover absolute opacity-100 top-0 -z-10"
-        src={videoBg}
-        playsInline
-        autoPlay
-        loop
-        muted
-      />
       <div className="max-w-[1000px] mx-auto px-6 flex flex-col justify-center h-full">
         <div className="flex flex-col md:flex-row">
           <div>

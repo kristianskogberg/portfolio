@@ -5,6 +5,7 @@ import ReactIcon from "../../assets/icons/react.png";
 import CPlusPlusIcon from "../../assets/icons/cplusplus.png";
 import PythonIcon from "../../assets/icons/python.png";
 import GitHubIcon from "../../assets/icons/github.png";
+import CSSIcon from "../../assets/icons/css.png";
 
 import PageTitle from "../PageTitle";
 import Skill from "../Skill";
@@ -41,7 +42,7 @@ export default function Skills() {
       className="w-full h-screen bg-[black] text-gray-300 pt-[80px]"
     >
       <div className="max-w-[1000px] mx-auto px-6 flex flex-col justify-start w-full h-full">
-        <PageTitle title={"02.Skills"} />
+        <PageTitle title={"Skills"} />
         <div>
           <motion.div
             variants={parentVariant}
@@ -55,8 +56,8 @@ export default function Skills() {
             }}
           >
             <motion.p variants={childVariant} className="py-6">
-              I'm msot experienced with the following technologies:
-            </motion.p>{" "}
+              I'm most experienced with the following technologies:
+            </motion.p>
           </motion.div>
 
           <motion.div
@@ -77,6 +78,10 @@ export default function Skills() {
 
             <motion.div variants={childVariant}>
               <Skill image={JavaScriptIcon} name={"Javascript"} />
+            </motion.div>
+
+            <motion.div variants={childVariant}>
+              <Skill image={CSSIcon} name={"CSS"} />
             </motion.div>
 
             <motion.div variants={childVariant}>

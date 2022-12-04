@@ -44,7 +44,7 @@ export default function About() {
       className="w-full h-full xs:h-screen pt-[80px] bg-[black] text-gray-300 "
     >
       <div className="max-w-[1000px] mx-auto px-6 flex flex-col justify-start h-full">
-        <PageTitle title={"01.About"} />
+        <PageTitle title={"About"} />
 
         <motion.div
           className="max-w-[700px]"

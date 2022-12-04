@@ -38,7 +38,7 @@ export default function Contact() {
           className="flex flex-col max-w-[1000px] w-full"
         >
           <div className="pb-8">
-            <PageTitle title={"04.Contact"} />
+            <PageTitle title={"Contact"} />
             <p className="text-gray-300 py-4">
               Submit the form below or send me an email: k.skogberg98@gmail.com
             </p>
