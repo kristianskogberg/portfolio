@@ -1,26 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.34001bda.css",
-    "main.js": "/static/js/main.43d746a2.js",
-    "static/media/nftgraph.png": "/static/media/nftgraph.74c6e628338f3911f96c.png",
-    "static/media/pokential.png": "/static/media/pokential.fcdc3cd72ba777cc40f1.png",
-    "static/media/portfolio.png": "/static/media/portfolio.d1f959e04d89db530401.png",
+    "main.css": "/static/css/main.5133976b.css",
+    "main.js": "/static/js/main.0c202eda.js",
     "static/media/bg.png": "/static/media/bg.f3c306f4ee538440cf46.png",
     "static/media/python.png": "/static/media/python.d8b377f05522bf35de36.png",
-    "static/media/poketype.png": "/static/media/poketype.58e2588425e8a30f1a64.png",
     "static/media/cplusplus.png": "/static/media/cplusplus.aee587d6b7bbd983b019.png",
-    "static/media/ggm.png": "/static/media/ggm.c1391a60068ab62b39e6.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
-    "static/media/ks_logo.png": "/static/media/ks_logo.f865a95c685f7b0ee4af.png",
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.34001bda.css.map": "/static/css/main.34001bda.css.map",
-    "main.43d746a2.js.map": "/static/js/main.43d746a2.js.map"
+    "main.5133976b.css.map": "/static/css/main.5133976b.css.map",
+    "main.0c202eda.js.map": "/static/js/main.0c202eda.js.map"
   },
   "entrypoints": [
-    "static/css/main.34001bda.css",
-    "static/js/main.43d746a2.js"
+    "static/css/main.5133976b.css",
+    "static/js/main.0c202eda.js"
   ]
 }
