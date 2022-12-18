@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import Logo from "../assets/icons/ks_logo.png";
+
 import { Link } from "react-scroll";
 
 const KS = "<ks>";

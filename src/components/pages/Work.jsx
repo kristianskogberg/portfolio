@@ -1,18 +1,7 @@
 import React from "react";
-import NFTGraph from "../../assets/work-screenshots/nftgraph.png";
-import PokeType from "../../assets/work-screenshots/poketype.png";
-import Portfolio from "../../assets/work-screenshots/portfolio.png";
-import Pokential from "../../assets/work-screenshots/pokential.png";
-import GGM from "../../assets/work-screenshots/ggm.png";
 import FeaturedProject from "../FeaturedProject";
 import PageTitle from "../PageTitle";
 import projects from "../../utils/projects.json";
-
-const pokeTypeDemoUrl =
-  "https://play.google.com/store/apps/details?id=com.pgkrsk.pokemontypecalculator&hl=en&gl=US";
-const pokeTypeCodeUrl = "https://github.com/kristianskogberg/poketype";
-const pokentialCodeUrl = "https://github.com/kristianskogberg/pokential";
-const PORTFOLIO_CODE_URL = "https://github.com/kristianskogberg/portfolio";
 
 export default function Work() {
   return (

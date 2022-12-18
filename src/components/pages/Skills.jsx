@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 import JavaScriptIcon from "../../assets/icons/javascript.png";
 import ReactIcon from "../../assets/icons/react.png";
@@ -10,8 +10,7 @@ import CSSIcon from "../../assets/icons/css.png";
 import PageTitle from "../PageTitle";
 import Skill from "../Skill";
 
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+import { motion } from "framer-motion";
 
 const parentVariant = {
   visible: {

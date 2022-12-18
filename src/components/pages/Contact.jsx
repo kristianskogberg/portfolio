@@ -37,7 +37,10 @@ export default function Contact() {
                 amount: 0.1,
               }}
             >
-              Submit the form below or send me an email: k.skogberg98@gmail.com
+              Submit the form below or send me an email:{" "}
+              <span className="text-primary font-bold">
+                k.skogberg98@gmail.com
+              </span>
             </motion.p>
           </div>
           <input
@@ -70,7 +73,7 @@ export default function Contact() {
               amount: 0.1,
             }}
           >
-            Let's Connect
+            Send
           </motion.button>
         </form>
         <Footer />
