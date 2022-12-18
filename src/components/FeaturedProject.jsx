@@ -27,7 +27,11 @@ export default function FeaturedProject(props) {
             </div>
             <div className="pt-6 h-1/6">
               <div className="flex flex-row flex-wrap gap-6">
-                <Button text="Demo" icon={<FaEye />} url={props.demoUrl} />
+                <Button
+                  text="Demo Video"
+                  icon={<FaEye />}
+                  url={props.demoUrl}
+                />
                 {props.codeUrl == null ? (
                   <Button text="Private" icon={<FaCode />} disable={true} />
                 ) : (

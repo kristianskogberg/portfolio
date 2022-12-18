@@ -5,7 +5,7 @@ export default function Button(props) {
     <>
       {props.disable ? (
         <button
-          className="cursor-default rounded-lg text-black font-bold font-fira bg-gray-500 gap-3 px-5 py-3 my-2 flex items-center "
+          className="text-gray-500 font-fira border-2 border-gray-500 cursor-default px-6 py-3 my-2 gap-2 flex items-center "
           alt="button disabled"
         >
           {props.icon ? props.icon : null}
@@ -14,7 +14,7 @@ export default function Button(props) {
       ) : (
         <a href={props.url} target="_blank" rel="noreferrer">
           <button
-            className="cursor-pointer rounded-lg text-black font-bold font-fira bg-gray-300 gap-3 px-5 py-3 my-2 flex items-center hover:bg-gray-400 duration-200"
+            className="text-white font-fira border-2 px-6 py-3 my-2 gap-2 flex items-center hover:bg-dark hover:border-dark duration-200"
             alt={props.text}
           >
             {props.icon ? props.icon : null}
