@@ -11,20 +11,6 @@ const parentVariant = {
   hidden: { opacity: 0 },
 };
 
-const childVariant = {
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.75,
-    },
-  },
-  hidden: {
-    opacity: 0,
-    y: 10,
-  },
-};
-
 export default function Contact() {
   return (
     <div
@@ -39,9 +25,20 @@ export default function Contact() {
         >
           <div className="pb-8">
             <PageTitle title={"Contact"} />
-            <p className="text-gray-300 py-4">
+            <motion.p
+              className="text-gray-300 py-4"
+              variants={parentVariant}
+              initial="hidden"
+              //animate={control}
+              //ref={ref}
+              whileInView={"visible"}
+              viewport={{
+                once: true,
+                amount: 0.1,
+              }}
+            >
               Submit the form below or send me an email: k.skogberg98@gmail.com
-            </p>
+            </motion.p>
           </div>
           <input
             className="p-2 bg-gray-300 placeholder-gray-500 text-[black]"
@@ -61,9 +58,20 @@ export default function Contact() {
             rows="10"
             placeholder="Message"
           ></textarea>
-          <button className="text-white border-2 hover:bg-primary hover:border-primary px-4 py-3 my-8 mx-auto flex items-center duration-[200ms]">
+          <motion.button
+            className="text-white border-2 hover:bg-dark hover:border-dark px-4 py-3 my-8 mx-auto flex items-center duration-[200ms]"
+            variants={parentVariant}
+            initial="hidden"
+            //animate={control}
+            //ref={ref}
+            whileInView={"visible"}
+            viewport={{
+              once: true,
+              amount: 0.1,
+            }}
+          >
             Let's Connect
-          </button>
+          </motion.button>
         </form>
         <Footer />
       </div>

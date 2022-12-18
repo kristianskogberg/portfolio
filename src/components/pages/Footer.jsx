@@ -6,7 +6,7 @@ import IconSocial from "../IconSocial";
 
 export default function Footer() {
   return (
-    <div className="w-full h-full bg-[black] text-gray-300 py-2">
+    <div className="w-full h-full bg-[black] text-gray-300 py-10">
       <div className="max-w-[1000px] mx-auto font-fira  flex flex-row justify-between items-end w-full h-full">
         <p>Copyright {"\u00A9"} Kristian Skogberg</p>
         <div className="flex flex-row items-right gap-4">

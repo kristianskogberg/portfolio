@@ -8,7 +8,7 @@ import BackgroundImage from "../../assets/bg.png";
 const fadeVariant = {
   visible: {
     opacity: 1,
-    transition: { delay: 5, duration: 1 },
+    transition: { delay: 4, duration: 1 },
   },
   hidden: { opacity: 0 },
 };
@@ -20,20 +20,6 @@ const parentVariant = {
     transition: { delay: 3, duration: 1 },
   },
   hidden: { opacity: 0, y: 10 },
-};
-
-const childVariant = {
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.75,
-    },
-  },
-  hidden: {
-    opacity: 0,
-    y: 10,
-  },
 };
 
 export default function Home() {

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 import { motion } from "framer-motion";
 
@@ -67,9 +67,12 @@ export default function About() {
 
           <motion.p variants={childVariant}>
             I'm passionate about building software and applications that both
-            look good and function well. I consider creativity one of my
+            look good and function well. I consider{" "}
+            <span className="text-primary font-bold">creativity</span> one of my
             strengths and it has been a very useful trait to combine with
-            programming to develop user-friendly interfaces and experiences.
+            programming to develop{" "}
+            <span className="text-primary font-bold">user-friendly</span>{" "}
+            interfaces and experiences.
           </motion.p>
 
           <motion.p className="py-6" variants={childVariant}>
@@ -80,8 +83,13 @@ export default function About() {
           </motion.p>
 
           <motion.p variants={childVariant}>
-            I have a Bachelor's Degree in Information Technology. I specialized
-            in Software Engineering.
+            I have a{" "}
+            <span className="text-primary font-bold">
+              Bachelor's Degree in Information Technology
+            </span>
+            . Currently I'm studying for a Master's Degree specializing in{" "}
+            <span className="text-primary font-bold">Software Development</span>
+            .
           </motion.p>
         </motion.div>
       </div>

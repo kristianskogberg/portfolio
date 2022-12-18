@@ -9,4 +9,8 @@
     @apply px-4;
     @apply cursor-pointer;
   }
+
+  p {
+    @apply text-gray-400;
+  }
 }
