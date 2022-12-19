@@ -76,7 +76,7 @@ export default function FeaturedProject(props) {
               {props.skills.map(function (skill) {
                 return (
                   <motion.p
-                    className="font-fira text-gray-500"
+                    className="font-fira text-gray-400"
                     variants={childVariant}
                   >
                     {skill}
@@ -96,10 +96,7 @@ export default function FeaturedProject(props) {
               }}
               className="h-3/6 "
             >
-              <motion.p
-                variants={childVariant}
-                className="text-[#889] py-4 max-w-[700px]"
-              >
+              <motion.p variants={childVariant} className=" py-4 max-w-[700px]">
                 {props.description}
               </motion.p>
             </motion.div>

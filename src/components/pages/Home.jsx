@@ -37,7 +37,7 @@ export default function Home() {
               text={"Hi, my name is"}
               delay={0}
               color={"#889"}
-              style={"font-fira text-[#889]"}
+              style={"font-fira text-[#789]"}
             />
 
             <AnimatedText
@@ -55,7 +55,7 @@ export default function Home() {
               variants={parentVariant}
               initial="hidden"
               animate="visible"
-              className="text-[#889] py-4 max-w-[700px]"
+              className="py-4 max-w-[700px]"
             >
               I'm studying for a Master's Degree specializing in Software
               Development at Tampere University. I'm currently building an NFT

@@ -84,8 +84,9 @@ export default function About() {
 
           <motion.p variants={childVariant}>
             I have a{" "}
+            <span className="text-primary font-bold">Bachelor's Degree</span> in{" "}
             <span className="text-primary font-bold">
-              Bachelor's Degree in Information Technology
+              Information Technology
             </span>
             . Currently I'm studying for a Master's Degree specializing in{" "}
             <span className="text-primary font-bold">Software Development</span>
